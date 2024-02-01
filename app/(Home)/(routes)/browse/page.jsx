@@ -1,8 +1,11 @@
 import React from 'react'
+import CategoryFilter from '../../_components/CategoryFilter'
 
 const Browse = () => {
   return (
-    <div>Browse</div>
+    <div>
+      <CategoryFilter />
+    </div>
   )
 }
 
